@@ -101,9 +101,9 @@ console.log(multiplyArray([1,2,3,4]));  // Print out the total to the console
 
  function printNames(...names) {
   console.log(`number of arguments: ${names.length}`);
-  for (var name of names) {
-    console.log(name);
-  }
+  // for (var name of names) {
+  //   console.log(name);
+  // }
 }
 
 printNames('foo', 'bar', 'baz');
